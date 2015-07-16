@@ -18,7 +18,7 @@
         <polygon points="421.196,203.991 312.695,312.493 204.194,203.991 199.867,208.318 308.368,316.819 199.867,425.327,204.194,429.654 312.695,321.152 421.196,429.654 425.523,425.327 317.022,316.819 425.523,208.318"/>
     </svg>
     <h1>Website Not Found</h1>
-    <p>Sorry, but no website with the name <strong><?=$_SERVER['SERVER_NAME']?></strong> was found on the <strong>{server name}</strong> server.</p>
+    <p>Sorry, but no website with the name <strong><?=$_SERVER['SERVER_NAME']?></strong> was found on this server.</p>
     <a href="mailto:jonathan@codedistillery.ca">Contact support</a>
 </article>
 
