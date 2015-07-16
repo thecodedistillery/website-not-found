@@ -1,0 +1,95 @@
+html,
+body {
+    height: 100%;
+    position: relative;
+    margin: 0;
+
+    background-color: #e3dfdc;
+    background-image: url($bg_image);
+    background-position: top center;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+article {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+
+    padding: 0 15px;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+
+    path,
+    polygon {
+        fill: #474440;
+    }
+}
+
+h1 {
+    margin: 25px auto 0 auto;
+    max-width: 785px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: normal;
+    color: #474440;
+    text-align: center;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 65px;
+    }
+}
+
+p {
+    margin: 25px auto 0 auto;
+    max-width: 520px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: normal;
+    color: #686563;
+    text-align: center;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+a {
+    display: block;
+    margin: 50px auto 0 auto;
+    padding: 12px 0;
+    max-width: 340px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background: #c75538;
+    border-radius: 3px;
+
+    &:hover {
+        background: #b34c32;
+    }
+
+    @media only screen and (min-width: 768px) {
+        font-size: 16px;
+    }
+}
