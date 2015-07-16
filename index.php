@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Website Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="http://thecodedistillery.github.io/website-not-found/css/all.css">
 
 </head>
 <body>
